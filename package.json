@@ -1,0 +1,29 @@
+{
+  "name": "scraping-books-for-programmers",
+  "version": "0.0.1",
+  "description": "a nodejs implementation, to make easy the download in bulk for books, magazines and other stuff from certain pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "downloads-in-bulk-and-scraping"
+  },
+  "keywords": [
+    "scraping",
+    "data",
+    "minning",
+    "minning",
+    "web",
+    "web",
+    "scraping",
+    "scraping",
+    "data"
+  ],
+  "author": "Mrgabo",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
