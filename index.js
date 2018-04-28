@@ -3,12 +3,12 @@ const port = 3000;
 const server = 'localhost';
 const fs = require('fs');
 const exec = require('child_process').exec;
- 
+
 
 //modularizando un poco con la variable aplicacion
 const aplicacion = http.createServer(function (req, res) {
 	res.writeHead(200, {'Content-Type': 'text/plain'});
-	res.end('Hello world\n');
+	res.end('Hello world');
 });
 
 
@@ -18,7 +18,7 @@ fs.writeFile('./archivos/archivo.txt', 'hola munhdo desde el archivo!', function
 	console.log('Fue guardado!!');
 });
 
-//ejecutando comandos con exec 
+//ejecutando comandos con exec
 exec('wget "http://dolar.mas.tienda/wp-content/uploads/2018/04/200px-Dollarnote_siegel_hq.jpg" -O el.jpg', function(error, stdout, stderr) {
 	console.log('stdout: '+ stdout);
 	console.log('stderr: ' + stderr);
@@ -32,7 +32,5 @@ exec('wget "http://dolar.mas.tienda/wp-content/uploads/2018/04/200px-Dollarnote_
 aplicacion.listen(port, server);
 
 
-//mostrando en la consola mensajes y posibles errores 
+//mostrando en la consola mensajes y posibles errores
 console.log(`'el servidor esta corriendo en ${port}'`);
-
-
