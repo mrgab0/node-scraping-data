@@ -24,6 +24,7 @@
   "author": "Mrgabo",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.2.1",
     "nodemon": "^1.17.3"
   }
 }
