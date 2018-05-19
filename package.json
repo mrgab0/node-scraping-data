@@ -25,6 +25,8 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.2.1",
-    "nodemon": "^1.17.3"
+    "nodemon": "^1.17.3",
+    "cheerio": "~1.0.0-rc.2",
+    "request": "~2.86.0"
   }
 }
